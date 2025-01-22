@@ -1,0 +1,3 @@
+# create databases
+CREATE DATABASE IF NOT EXISTS `interview`;
+CREATE DATABASE IF NOT EXISTS `test`;

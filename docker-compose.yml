@@ -1,0 +1,40 @@
+services:
+  interview:
+    container_name: interview
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - 9090:9090
+    volumes:
+      - ./:/var/www:cached
+    networks:
+      - interview-network
+    environment:
+      MYSQL_HOST: mysql
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+      MYSQL_DB: interview
+
+  mysql:
+    container_name: interview-mysql
+    image: mysql:8.0
+    volumes:
+      - ./docker/mysql/:/docker-entrypoint-initdb.d/
+      - interview-data:/var/lib/mysql
+    ports:
+      - 3307:3306
+    networks:
+      - interview-network
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    healthcheck:
+      test: '/usr/bin/mysql --user=root --password=root --execute "SHOW DATABASES;"'
+      timeout: 5s
+      retries: 30
+
+volumes:
+  interview-data:
+
+networks:
+  interview-network:
+    name: interview-network
