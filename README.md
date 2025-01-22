@@ -80,3 +80,19 @@ While working inside the container with `docker compose exec` we can run our Lar
 ```bash
 php artisan test
 ```
+
+## Troubleshooting
+
+> Warning: require(/var/www/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/public/index.php on line 13
+
+Refer to the Laravel heading above, ensure you have run the `composer install` command inside the container
+
+> 500 | SERVER ERROR
+
+Refer to the Laravel heading above, ensure you have a `.env` file setup
+
+> No application encryption key has been specified.
+
+Refer to the Laravel heading above, ensure you have generated a new `key`
+
+
