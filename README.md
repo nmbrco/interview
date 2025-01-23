@@ -48,7 +48,7 @@ Then, copy the example environment file to create your own local copy:
 cp .env.example .env
 ```
 
-Then, generate a new key to use for encryption:
+Next, generate a new key to use for encryption:
 
 ```bash
 php artisan key:generate
