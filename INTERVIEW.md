@@ -32,15 +32,15 @@ Acme Software Shop has licensed our API to help them calculate payroll for their
 
 They need our API to capture earnings and calculate the gross and net pay for multiple employees.
 
-**Employee Data**
+**Employee API**
 
 - Create and update an employee, ensuring the employee has a Name, Province and SIN number.
 
-**Earning Data**
+**Earning API**
 
 - Store earnings in the form of dollars for employees.
 
-**Tax Calculation**
+**Tax Calculation API**
 
 Calculate employee taxes by applying a tax % withholding to employees earnings.
 
@@ -53,7 +53,7 @@ Each employee is only taxed in 1 province. However, employees can be from differ
 | Alberta | 10% |
 | British Columbia | 5.06% |
 
-**Reports**
+**Reporting API**
 
 Acme Software Shop will also require the ability to generate a CSV report of the calculation results.
 
