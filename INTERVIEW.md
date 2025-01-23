@@ -2,7 +2,7 @@
 
 ### Process
 
-Part of the inteview process at Nmbr involves completeing a pair programming style technical interview and assessment. The Nmbr backend team primarily uses PHP and Laravel for daily development therefore, the technical assessment resolves around the usage and understanding of these languages.  
+Part of the inteview process at Nmbr involves completeing a pair programming style technical interview and assessment. The Nmbr backend team primarily uses PHP and Laravel for daily development therefore, the technical assessment revolves around the usage and understanding of these languages and frameworks.  
 
 Candidates will be given time to familiarize themselves with the latest versions of PHP and Laravel prior to the interview.
 
