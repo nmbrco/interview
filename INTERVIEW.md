@@ -87,3 +87,11 @@ The purpose of our live technical programming interview is to evaluate a candida
 - Communication skills 
 - Language and framework proficiency
 - Feedback and adaptability
+
+## Future Exploration
+
+If the candidate is able to complete the task with ample time remaining, explore some of these topics using real or pseudo "todo" code:
+- Scaling the approach 10x, 100x, 1000x
+- Error handling, monitoring, logging, and alerting
+- Roles and permissions, security
+- Deployment and production readiness considerations
